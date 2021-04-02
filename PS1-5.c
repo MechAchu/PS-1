@@ -32,5 +32,9 @@ My output is correct for N = 65535 with it being 2147450880
 
 When I run N = 65536 the output is too large for the system so it overfills
 and since it goes past the maximum value it goes to the minimum value of
--2147450880 for a 32 bit integer.
+-2147450880 for a 32 bit integer. We can think of this like a ladder with 0 
+being the middle of the ladder, when we climb up the ladder everything is 
+smooth sailing until we get to the very top, and then when we try to go higher
+there's nowhere else to go except down, so we fall all the way down to the bottom
+of the ladder.
 */
